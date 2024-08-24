@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>headerlinks}}
+</head>
+
+<body>
+    <!-- Heading -->
+    {{>navbar}}
+
+    <!-- main body -->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <div class="col-md-12 col-12 main_header_left align-items-center">
+                        <figure class="errorImg">
+                            <img src="images/errorPage.jpg" alt="woman" class="img-fluid" title="bandana">
+                        </figure>
+                        <p>Welcome to Weather Express</p>
+                        <h1>{{errorMsg}}</h1>
+                        <a href="/"><button class="button">Go Back</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+     {{>footer}}
+     
+</body>
+
+</html>
